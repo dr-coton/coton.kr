@@ -1,0 +1,17 @@
+---
+const today = new Date();
+---
+
+<footer>
+	&copy; {today.getFullYear()} coton.kr
+</footer>
+<style>
+	footer {
+		width: var(--measure);
+		max-width: calc(100% - 3em);
+		margin: 0 auto;
+		padding: 0 0 4em;
+		color: rgb(var(--ink-soft));
+		font-size: 0.85em;
+	}
+</style>
